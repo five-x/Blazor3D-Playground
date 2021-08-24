@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Extensions.Canvas", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Extensions.Canvas.JS", "Canvas\src\Blazor.Extensions.Canvas.JS\Blazor.Extensions.Canvas.JS.csproj", "{241DDF82-0DB5-4E71-AD8F-0C3A73C3A05B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebGLJSInvoke", "BlazorWebGLJSInvoke\BlazorWebGLJSInvoke.csproj", "{1A68F063-9DC9-4862-9B4A-D025D3CA3F70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{241DDF82-0DB5-4E71-AD8F-0C3A73C3A05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{241DDF82-0DB5-4E71-AD8F-0C3A73C3A05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{241DDF82-0DB5-4E71-AD8F-0C3A73C3A05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A68F063-9DC9-4862-9B4A-D025D3CA3F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A68F063-9DC9-4862-9B4A-D025D3CA3F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A68F063-9DC9-4862-9B4A-D025D3CA3F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A68F063-9DC9-4862-9B4A-D025D3CA3F70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

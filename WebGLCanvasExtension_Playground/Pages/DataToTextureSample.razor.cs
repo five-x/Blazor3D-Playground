@@ -127,7 +127,7 @@ namespace WebGLCanvasExtension_Playground.Pages
                         var redIndex = i * width * valuesPerPoint + j * valuesPerPoint;
                         var value = (int)(Math.Min(falloffEnd, (int)dist) / (falloffEnd) * 255);
                         texture[redIndex] = 255 - value;
-                        texture[redIndex + 1] = 0;
+                        texture[redIndex + 1] = 100;
                         texture[redIndex + 2] = value;
                         //texture[redIndex + 2] = 10;
                         //texture[redIndex ] = 220;
